@@ -644,7 +644,9 @@ def main():
         st.write("Columns found:", list(df.columns))
         return
 
-    st.write("Normalized Columns:", df.columns.tolist())
+    # Show normalized columns in a collapsed expander by default to reduce UI clutter
+    with st.expander("Normalized Columns (click to expand)", expanded=False):
+        st.write(list(df.columns))
 
     # Process
     with st.spinner("Processing data — this may take a moment for tens of thousands of rows..."):
@@ -667,14 +669,23 @@ def main():
         ev_series = inds_all.get("Vendors_Evaluated", pd.Series(dtype=object)).dropna().astype(str)
         ev_options = sorted({v.strip() for s in ev_series for v in s.split(",") if v.strip()})
 
-        selected_pv = st.sidebar.multiselect("Potential Vendors", options=pv_options, default=[])
-        selected_ev = st.sidebar.multiselect("Vendors Evaluated", options=ev_options, default=[])
+        # Use session_state keys so we can reset the widgets programmatically
+        selected_pv = st.sidebar.multiselect("Potential Vendors", options=pv_options, default=[], key="pv")
+        selected_ev = st.sidebar.multiselect("Vendors Evaluated", options=ev_options, default=[], key="ev")
 
         max_eng = int(inds_all["Total Engagements"].max()) if "Total Engagements" in inds_all.columns and not inds_all["Total Engagements"].isnull().all() else 20
-        min_eng_display = st.sidebar.slider("Min engagements to display", 1, max(1, max_eng), value=int(min_eng))
+        min_eng_display = st.sidebar.slider("Min engagements to display", 1, max(1, max_eng), value=int(min_eng), key="min_eng_display")
 
-        top_n = st.sidebar.slider("Top N engaged people (0 = off)", 0, 50, 0)
-        only_vendor_eval = st.sidebar.checkbox("Only Vendor Evaluation stage", value=False)
+        top_n = st.sidebar.slider("Top N engaged people (0 = off)", 0, 50, 0, key="top_n")
+        only_vendor_eval = st.sidebar.checkbox("Only Vendor Evaluation stage", value=False, key="only_vendor_eval")
+
+        # Reset filters button: clears UI-only selections (does not affect Excel export)
+        if st.sidebar.button("Reset filters"):
+            st.session_state["pv"] = []
+            st.session_state["ev"] = []
+            st.session_state["min_eng_display"] = int(min_eng)
+            st.session_state["top_n"] = 0
+            st.session_state["only_vendor_eval"] = False
 
         # Apply filters to a display copy
         filt = pd.Series(True, index=inds_all.index)
