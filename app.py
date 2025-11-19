@@ -14,12 +14,11 @@ from openpyxl.styles import PatternFill
 # ------------------------
 
 REQUIRED_COLUMNS = [
-    "email",
+    "company",
     "first_name",
     "last_name",
-    "company",
     "engagement_date",
-    "engagement_type",
+    "raw_content_title",
 ]
 
 STAGE_ORDER = ["Awareness", "Problem Definition", "Solution Exploration", "Vendor Evaluation"]
@@ -32,14 +31,125 @@ STAGE_COLOR = {
 }
 
 
-def normalize_columns(df):
-    # Lowercase and replace spaces
-    mapping = {}
-    cols = list(df.columns)
-    lowered = [c.strip().lower().replace(" ", "_") for c in cols]
-    for orig, low in zip(cols, lowered):
-        mapping[orig] = low
-    df = df.rename(columns=mapping)
+def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Normalize only the columns the app needs using the exact rename_map provided.
+
+    - Accept extra columns and preserve them.
+    - Rename using `df.rename(columns=rename_map)` (no errors if keys missing).
+    - After renaming, if any REQUIRED_COLUMNS are missing, raise a simple
+      human-readable ValueError listing only the missing required columns.
+    - Create OPTIONAL columns if not present.
+    - Convert `engagement_date` to datetime (errors='coerce').
+    - Strip whitespace from all object columns.
+    - Preserve any extra/unknown columns.
+    """
+    rename_map = {
+        "Reader Company": "company",
+        "First Name": "first_name",
+        "Last Name": "last_name",
+        "Title": "title",
+        "Activity Date": "engagement_date",
+        "Activity Source": "engagement_type",
+        "Content Title": "raw_content_title",
+        "Content Type": "content_type",
+        "Content Buyer's Journey": "content_bj_label",
+        "Content Topics": "content_topics",
+        "Content Source": "content_source",
+        "Specifics": "specifics",
+        "Newsletter Name": "newsletter_name",
+        "Client": "client",
+        "Quality": "quality",
+        "Country": "country",
+        "Region": "region",
+    }
+
+    # Build a normalized mapping so we accept common variants (underscores, lowercase, etc.).
+    # Map normalized input header -> canonical internal name.
+    canonical_map = {
+        # provided canonical keys and some common variants
+        "reader_company": "company",
+        "reader company": "company",
+        "reader_org": "company",
+        "reader org": "company",
+        "company": "company",
+        "company_name": "company",
+        "first_name": "first_name",
+        "firstname": "first_name",
+        "last_name": "last_name",
+        "lastname": "last_name",
+        "title": "title",
+        "activity_date": "engagement_date",
+        "activity date": "engagement_date",
+        "activity_month": "engagement_date",
+        "engagement_date": "engagement_date",
+        "engagement date": "engagement_date",
+        "activity_source": "engagement_type",
+        "activity source": "engagement_type",
+        "activity_type": "engagement_type",
+        "activity type": "engagement_type",
+        "engagement_type": "engagement_type",
+        "content_title": "raw_content_title",
+        "content title": "raw_content_title",
+        "content_type": "content_type",
+        "content type": "content_type",
+        "content_buyer's_journey": "content_bj_label",
+        "content_buyer's_journey": "content_bj_label",
+        "content buyer's journey": "content_bj_label",
+        "content_topics": "content_topics",
+        "content topics": "content_topics",
+        "content_source": "content_source",
+        "content source": "content_source",
+        "specifics": "specifics",
+        "newsletter_name": "newsletter_name",
+        "newsletter name": "newsletter_name",
+        "client": "client",
+        "quality": "quality",
+        "country": "country",
+        "region": "region",
+        "online": "online",
+        "company_type": "company_type",
+        "product": "product",
+        "email": "email",
+    }
+
+    # Group existing df columns by the canonical target they map to
+    norm_to_sources = {}
+    for orig_col in list(df.columns):
+        norm = orig_col.strip().lower().replace(" ", "_")
+        target = canonical_map.get(norm)
+        if target:
+            norm_to_sources.setdefault(target, []).append(orig_col)
+
+    # For each target internal column, if exactly one source exists, rename it.
+    # If multiple sources exist, create the target column by coalescing (first non-null)
+    for target, sources in norm_to_sources.items():
+        if len(sources) == 1:
+            df = df.rename(columns={sources[0]: target})
+        else:
+            # create new column with first non-null value across sources; preserve originals
+            df[target] = df[sources].bfill(axis=1).iloc[:, 0]
+
+    # After renaming, check required columns
+    missing = [c for c in REQUIRED_COLUMNS if c not in df.columns]
+    if missing:
+        raise ValueError(f"The uploaded file is missing required columns: {missing}")
+
+    # OPTIONAL columns to ensure downstream code doesn't fail
+    optional_cols = ["email", "content_source", "newsletter_name", "quality", "product", "engagement_type"]
+    for c in optional_cols:
+        if c not in df.columns:
+            df[c] = np.nan
+
+    # Convert engagement_date to datetime (errors coerced)
+    if "engagement_date" in df.columns:
+        df["engagement_date"] = pd.to_datetime(df["engagement_date"], errors="coerce")
+
+    # Strip whitespace from all object (string) columns
+    obj_cols = df.select_dtypes(include=[object]).columns.tolist()
+    for c in obj_cols:
+        df[c] = df[c].apply(lambda v: v.strip() if isinstance(v, str) else v)
+
     return df
 
 
@@ -74,9 +184,8 @@ def stage_from_text(text: str):
 
 @st.cache_data
 def process_dataframe(df: pd.DataFrame, min_engagements: int = 5):
-    # normalize
-    df = normalize_columns(df)
-    df = parse_dates(df, "engagement_date")
+    # process_dataframe expects the df to already be normalized by normalize_columns
+    # (normalization runs immediately after upload in `main`).
 
     # Ensure necessary columns exist with defaults
     for c in ["email", "first_name", "last_name", "company", "engagement_type", "product"]:
@@ -176,7 +285,6 @@ def excel_with_styles(dfs: dict, filename: str = "report.xlsx") -> bytes:
             # sanitize sheet name
             sheet_name = sheet[:31]
             df.to_excel(writer, sheet_name=sheet_name, index=False)
-        writer.save()
 
     output.seek(0)
     wb = load_workbook(output)
@@ -253,11 +361,15 @@ def main():
         st.error(f"Failed to read file: {e}")
         return
 
-    missing, df = find_required_columns(df)
-    if missing:
-        st.error(f"Missing required columns (after normalization): {missing}")
+    # Normalize columns immediately after upload and show normalized column list for debugging
+    try:
+        df = normalize_columns(df)
+    except ValueError as e:
+        st.error(str(e))
         st.write("Columns found:", list(df.columns))
         return
+
+    st.write("Normalized Columns:", df.columns.tolist())
 
     # Process
     with st.spinner("Processing data — this may take a moment for tens of thousands of rows..."):
@@ -305,9 +417,10 @@ def sample_csv() -> bytes:
             "First Name": ["Alice", "Bob"],
             "Last Name": ["A", "B"],
             "Email": ["alice@example.com", "bob@example.com"],
-            "Company": ["Acme Inc", "Beta LLC"],
-            "Engagement Date": [datetime.now().isoformat(), datetime.now().isoformat()],
-            "Engagement Type": ["webinar - product features", "requested demo"],
+            "Reader Company": ["Acme Inc", "Beta LLC"],
+            "Activity Date": [datetime.now().isoformat(), datetime.now().isoformat()],
+            "Activity Source": ["webinar - product features", "requested demo"],
+            "Content Title": ["Webinar: Product X Features", "Requested Demo for Product Y"],
             "Product": ["Product X", "Product Y"],
         }
     )
