@@ -1,3 +1,9 @@
+.env
+.env.*
+*.ipynb_checkpoints/
+__pycache__/
+*.DS_Store
+*.log
 # Python
 __pycache__/
 .venv/

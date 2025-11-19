@@ -609,8 +609,9 @@ def enrich_companies_stub(companies: pd.DataFrame) -> pd.DataFrame:
 
 
 def main():
-    st.set_page_config(page_title="LSC Buyer Journey Intelligence Engine", layout="wide")
-    st.title("LSC Buyer Journey Intelligence Engine")
+    st.set_page_config(page_title="LSC Buyer Intelligence Web App", layout="wide")
+    st.title("LSC Buyer Intelligence Web App")
+    st.caption("This public version allows anyone to upload a quick-export file and generate buyer journey insights.")
 
     st.markdown(
         "Upload an XLSX or CSV export from Life Science Connect. The app validates columns, aggregates engagements to individuals, computes buyer journey stages, and produces an Excel report."

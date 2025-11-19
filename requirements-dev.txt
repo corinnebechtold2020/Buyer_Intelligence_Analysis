@@ -1,0 +1,20 @@
+ -r requirements-local.txt
+
+# Optional scraping / browser tools
+requests-html
+selenium
+playwright
+
+# Optional search APIs
+google-api-python-client
+serpapi
+
+# Optional NLP / AI
+transformers
+sentence-transformers
+tiktoken
+openai
+
+# Optional big data
+duckdb
+dask

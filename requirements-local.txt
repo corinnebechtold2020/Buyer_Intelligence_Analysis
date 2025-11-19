@@ -1,0 +1,16 @@
+ -r requirements.txt
+
+# Local development tools
+jupyterlab
+ipykernel
+python-dotenv
+black
+flake8
+pytest
+
+# Optional heavy data tools for local testing
+scipy
+matplotlib
+seaborn
+polars
+xlrd
