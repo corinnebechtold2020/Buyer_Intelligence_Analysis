@@ -1,5 +1,34 @@
 # LSC Buyer Journey Intelligence Engine
 
+This is a Streamlit app that ingests Life Science Connect exports, normalizes fields, aggregates to individuals, infers buyer-journey stages, and produces a multi-sheet, color-coded Excel report.
+
+How to run locally
+
+1. Create a Python environment and install deps:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+2. Run the app:
+
+```bash
+streamlit run app.py
+```
+
+Deploy to Streamlit Community Cloud
+
+1. Push this repo to GitHub (public is easiest for the free tier).
+2. Open https://share.streamlit.io and click "New app".
+3. Select your repo, branch `main`, and `app.py` as the file, then deploy.
+
+Contact
+
+If you want, I can help push the repo and configure the Streamlit Cloud app (you'll need to connect your GitHub account in the browser).
+# LSC Buyer Journey Intelligence Engine
+
 This repository contains a Streamlit app that processes Life Science Connect (LSC) exports and produces buyer-journey intelligence and multi-tab Excel reports.
 
 **Features**
