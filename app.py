@@ -653,13 +653,61 @@ def main():
     st.success("Processing complete")
 
     # Show previews
+    # Build display-time filters in the sidebar. These only affect what is shown
+    # in the app UI; the generated Excel file remains unchanged and uses the
+    # original `results` values.
+    inds_all = results["individuals"].copy()
+
+    # Sidebar controls
+    st.sidebar.markdown("**Display filters (UI only)**")
+    if not inds_all.empty:
+        # Gather potential vendors and evaluated vendors as option lists
+        pv_series = inds_all.get("Potential_Vendors", pd.Series(dtype=object)).dropna().astype(str)
+        pv_options = sorted({v.strip() for s in pv_series for v in s.split(",") if v.strip()})
+        ev_series = inds_all.get("Vendors_Evaluated", pd.Series(dtype=object)).dropna().astype(str)
+        ev_options = sorted({v.strip() for s in ev_series for v in s.split(",") if v.strip()})
+
+        selected_pv = st.sidebar.multiselect("Potential Vendors", options=pv_options, default=[])
+        selected_ev = st.sidebar.multiselect("Vendors Evaluated", options=ev_options, default=[])
+
+        max_eng = int(inds_all["Total Engagements"].max()) if "Total Engagements" in inds_all.columns and not inds_all["Total Engagements"].isnull().all() else 20
+        min_eng_display = st.sidebar.slider("Min engagements to display", 1, max(1, max_eng), value=int(min_eng))
+
+        top_n = st.sidebar.slider("Top N engaged people (0 = off)", 0, 50, 0)
+        only_vendor_eval = st.sidebar.checkbox("Only Vendor Evaluation stage", value=False)
+
+        # Apply filters to a display copy
+        filt = pd.Series(True, index=inds_all.index)
+        if selected_pv:
+            pv_mask = pd.Series(False, index=inds_all.index)
+            for v in selected_pv:
+                pv_mask |= inds_all.get("Potential_Vendors", pd.Series("", index=inds_all.index)).fillna("").astype(str).str.contains(re.escape(v), case=False, na=False)
+            filt &= pv_mask
+        if selected_ev:
+            ev_mask = pd.Series(False, index=inds_all.index)
+            for v in selected_ev:
+                ev_mask |= inds_all.get("Vendors_Evaluated", pd.Series("", index=inds_all.index)).fillna("").astype(str).str.contains(re.escape(v), case=False, na=False)
+            filt &= ev_mask
+
+        if min_eng_display:
+            if "Total Engagements" in inds_all.columns:
+                filt &= inds_all["Total Engagements"] >= int(min_eng_display)
+
+        if only_vendor_eval:
+            if "Buyer_Journey_Label" in inds_all.columns:
+                filt &= inds_all["Buyer_Journey_Label"] == "Vendor Evaluation"
+
+        inds_filtered = inds_all[filt].copy()
+        if top_n and top_n > 0 and "Total Engagements" in inds_filtered.columns:
+            inds_filtered = inds_filtered.sort_values("Total Engagements", ascending=False).head(top_n)
+    else:
+        inds_filtered = inds_all
+
     st.subheader("Individuals (filtered)")
-    st.dataframe(results["individuals"].head(200))
+    st.dataframe(inds_filtered.head(200))
 
     st.subheader("Company Summary")
     st.dataframe(results["company_summary"].head(200))
-
-    # Top Products section removed per user request (was blank/unnecessary)
 
     st.subheader("Sales Hot List")
     st.dataframe(results["sales_hot_list"].head(200))
