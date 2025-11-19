@@ -1,9 +1,5 @@
-streamlit
-pandas
-numpy
-openpyxl
-pillow==9.4.0
 streamlit==1.25.0
 pandas==2.2.2
 numpy==1.26.4
 openpyxl==3.1.2
+pillow==9.4.0
