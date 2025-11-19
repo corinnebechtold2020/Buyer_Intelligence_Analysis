@@ -292,7 +292,15 @@ def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
         if len(sources) == 1:
             df = df.rename(columns={sources[0]: target})
         else:
-            df[target] = df[sources].bfill(axis=1).iloc[:, 0]
+            # Prefer explicit "Activity Source" column over "Activity Type" when both exist.
+            # Sort sources so that any source whose normalized name equals the target
+            # appears first. This avoids taking an earlier column like 'Activity Type'
+            # when a more specific 'Activity Source' column (e.g. 'Non-NL') is present.
+            def _norm_name(s):
+                return s.strip().lower().replace(" ", "_")
+
+            sorted_sources = sorted(sources, key=lambda s: 0 if _norm_name(s) == target else 1)
+            df[target] = df[sorted_sources].bfill(axis=1).iloc[:, 0]
 
     # verify required internal fields
     missing = [c for c in REQUIRED_COLUMNS if c not in df.columns]
