@@ -1,3 +1,7 @@
+## Minimal, pinned requirements for faster, reproducible builds on cloud hosts
+## - Pin only the packages your app actually needs so the resolver does less work.
+## - Prefer binary wheels during install (use `pip install --prefer-binary`).
+
 streamlit==1.25.0
 pandas==2.2.2
 numpy==1.26.4
