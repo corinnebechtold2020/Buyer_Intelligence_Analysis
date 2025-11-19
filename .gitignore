@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+output/
+*.xlsx
+.vscode/
+.env
+.DS_Store
+.streamlit/
