@@ -1,0 +1,248 @@
+{
+  "analyzed": 300,
+  "with_data": 300,
+  "below_0.5": 0,
+  "above_eq_0.5": 300,
+  "rows_sample": [
+    {
+      "key": "3pbiovian|alejandro|martin",
+      "total": 6,
+      "non_nl": 6,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "a*star|wei|zhang",
+      "total": 5,
+      "non_nl": 5,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "abbott|aaron|comerford",
+      "total": 5,
+      "non_nl": 5,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "abbott|cristina|girao",
+      "total": 7,
+      "non_nl": 7,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "abbott india ltd|rameshwar|deshmukh",
+      "total": 7,
+      "non_nl": 7,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "abl|tingting|ju",
+      "total": 8,
+      "non_nl": 8,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "adma biologics|noah|horn",
+      "total": 13,
+      "non_nl": 13,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "aegros|christina|chen",
+      "total": 5,
+      "non_nl": 5,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "afrigen biologicals|dumisani|cakwebe",
+      "total": 16,
+      "non_nl": 16,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "agc biologics|kevin|dornfeld",
+      "total": 17,
+      "non_nl": 17,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "agenus|fangqiang|tang",
+      "total": 7,
+      "non_nl": 7,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "agenus|roxanna|vidal",
+      "total": 7,
+      "non_nl": 7,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "akron bioproducts|militza|monserrate",
+      "total": 7,
+      "non_nl": 7,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "alaya.bio|l\u00e9a|dandan",
+      "total": 7,
+      "non_nl": 7,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "alloy therapeutics co. ltd.|junji|yamaura",
+      "total": 15,
+      "non_nl": 15,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "alteogen inc.|kyuwan|kim",
+      "total": 6,
+      "non_nl": 6,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "altpep|laura|napier",
+      "total": 7,
+      "non_nl": 7,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "alvotech|arun|bhat",
+      "total": 7,
+      "non_nl": 7,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "amneal pharmaceutical|suhaskumar|patel",
+      "total": 8,
+      "non_nl": 8,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "amneal pharmaceuticals|shailesh|jain",
+      "total": 7,
+      "non_nl": 7,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "amryt pharma|adi|valdfogel",
+      "total": 8,
+      "non_nl": 8,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "anagram therapeutics inc|cherline|beaubrun smith",
+      "total": 27,
+      "non_nl": 27,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "anaptysbio|daisy|khuu",
+      "total": 8,
+      "non_nl": 8,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "anxo pharmaceutical co.|tony|liu",
+      "total": 5,
+      "non_nl": 5,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "apogee therapeutics|andrew|wood",
+      "total": 9,
+      "non_nl": 9,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "arcellx|michael|lee",
+      "total": 7,
+      "non_nl": 7,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "arcellx inc.|tiezheng|li",
+      "total": 7,
+      "non_nl": 7,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "asimov|jonathon|o'leary",
+      "total": 7,
+      "non_nl": 6,
+      "percent_non_nl": 0.8571428571428571
+    },
+    {
+      "key": "asklepios biopharmaceutical inc.|david|knop",
+      "total": 7,
+      "non_nl": 7,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "astellas pharma|alison|burkart",
+      "total": 7,
+      "non_nl": 7,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "astellas pharma|fumio|shoji",
+      "total": 16,
+      "non_nl": 16,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "astellas pharma|jerome|baligod",
+      "total": 18,
+      "non_nl": 18,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "astellas pharma|shinya|takahashi",
+      "total": 7,
+      "non_nl": 7,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "astellas pharma inc.|junta|shimada",
+      "total": 9,
+      "non_nl": 9,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "astellas pharma inc.|yuriko|arikawa",
+      "total": 15,
+      "non_nl": 15,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "atyr pharma|darin|lee",
+      "total": 5,
+      "non_nl": 5,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "aurigene pharmaceutical services limited|premnath|s",
+      "total": 7,
+      "non_nl": 7,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "autolus ltd|hemant|dhamne",
+      "total": 15,
+      "non_nl": 15,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "aviadobio|daniel|lourenco",
+      "total": 5,
+      "non_nl": 5,
+      "percent_non_nl": 1.0
+    },
+    {
+      "key": "be biopharma|lisa|bradbury",
+      "total": 7,
+      "non_nl": 7,
+      "percent_non_nl": 1.0
+    }
+  ]
+}

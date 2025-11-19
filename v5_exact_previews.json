@@ -1,0 +1,272 @@
+{
+  "Company_Combined": {
+    "shape": [
+      1224,
+      7
+    ],
+    "columns": [
+      "Company",
+      "Active_Individuals",
+      "Dominant_Topic",
+      "Team_Buying_Signal",
+      "Behavioral_Triggers",
+      "External_Trigger",
+      "Product_Category"
+    ],
+    "head": [
+      {
+        "Company": "3Pbiovian",
+        "Active_Individuals": 2,
+        "Dominant_Topic": "Manufacturing,QA/QC,Upstream Process Intensification",
+        "Team_Buying_Signal": "Yes",
+        "Behavioral_Triggers": "",
+        "External_Trigger": "",
+        "Product_Category": "Biologic,Discovery,Process Development,Upstream Process Intensification"
+      },
+      {
+        "Company": "3Pbiovian",
+        "Active_Individuals": 2,
+        "Dominant_Topic": "Manufacturing,QA/QC,Upstream Process Intensification",
+        "Team_Buying_Signal": "Yes",
+        "Behavioral_Triggers": "",
+        "External_Trigger": "",
+        "Product_Category": "Biologic,Drug Discovery / Drug Research,Manufacturing,Upstream Cell Line Development,Upstream Process Intensification"
+      },
+      {
+        "Company": "3Pbiovian",
+        "Active_Individuals": 2,
+        "Dominant_Topic": "Manufacturing,QA/QC,Upstream Process Intensification",
+        "Team_Buying_Signal": "Yes",
+        "Behavioral_Triggers": "",
+        "External_Trigger": "",
+        "Product_Category": "Manufacturing,QA/QC,Upstream Process Intensification"
+      },
+      {
+        "Company": "A*Star",
+        "Active_Individuals": 2,
+        "Dominant_Topic": "Bioprocess Manufacturing Controls,Cell Therapy Manufacturing,Pharmaceutical Manufacturing Controls",
+        "Team_Buying_Signal": "Yes",
+        "Behavioral_Triggers": "",
+        "External_Trigger": "",
+        "Product_Category": "Bioprocess Manufacturing Controls,Cell Therapy Manufacturing,Pharmaceutical Manufacturing Controls"
+      },
+      {
+        "Company": "Abbott",
+        "Active_Individuals": 3,
+        "Dominant_Topic": "All Molecules,Regulatory",
+        "Team_Buying_Signal": "Yes",
+        "Behavioral_Triggers": "",
+        "External_Trigger": "",
+        "Product_Category": "All Molecules,Bioprocess Manufacturing Controls,Quality Assurance"
+      }
+    ]
+  },
+  "Individuals": {
+    "shape": [
+      336,
+      14
+    ],
+    "columns": [
+      "Reader Company",
+      "First Name",
+      "Last Name",
+      "Title",
+      "Total Engagements",
+      "Buyer_Journey_Label",
+      "Explanation",
+      "Primary_Topic",
+      "Potential_Vendors",
+      "Vendors_Evaluated",
+      "Buyer_Intensity_Flags",
+      "Behavioral_Trigger",
+      "External_Trigger (press release info, etc)",
+      "Reason to Reach out"
+    ],
+    "head": [
+      {
+        "Reader Company": "3Pbiovian",
+        "First Name": "Alejandro",
+        "Last Name": "Martin",
+        "Title": "Team leader",
+        "Total Engagements": 6,
+        "Buyer_Journey_Label": "Awareness",
+        "Explanation": "General interest in this topic area",
+        "Primary_Topic": "Manufacturing,QA/QC,Upstream Process Intensification",
+        "Potential_Vendors": "Thermo Fisher Scientific, Cytiva, Sartorius, Fujifilm Irvine Scientific, MilliporeSigma, Eppendorf, PBS Biotech",
+        "Vendors_Evaluated": "Bioprocess Online, Roche CustomBiotech",
+        "Buyer_Intensity_Flags": "",
+        "Behavioral_Trigger": "",
+        "External_Trigger (press release info, etc)": "",
+        "Reason to Reach out": "Early awareness in Manufacturing,QA/QC,Upstream Process Intensification; keep warm with high-level thought leadership."
+      },
+      {
+        "Reader Company": "A*Star",
+        "First Name": "Wei",
+        "Last Name": "Zhang",
+        "Title": "Scientist",
+        "Total Engagements": 5,
+        "Buyer_Journey_Label": "Awareness",
+        "Explanation": "General interest in this topic area",
+        "Primary_Topic": "",
+        "Potential_Vendors": "Cytiva, Sartorius, Thermo Fisher Scientific, MilliporeSigma, Repligen",
+        "Vendors_Evaluated": "Bio-Rad Laboratories, Inc., Cytiva, DIANT Pharma, Ecolab, Purolite Resins, Entegris, Inc.",
+        "Buyer_Intensity_Flags": "",
+        "Behavioral_Trigger": "",
+        "External_Trigger (press release info, etc)": "",
+        "Reason to Reach out": "Early awareness in this area; keep warm with high-level thought leadership."
+      },
+      {
+        "Reader Company": "Abbott",
+        "First Name": "Aaron",
+        "Last Name": "Comerford",
+        "Title": "Medical Device Production Supervisor",
+        "Total Engagements": 5,
+        "Buyer_Journey_Label": "Awareness",
+        "Explanation": "Direct (Non-NL) visit rather than newsletter click",
+        "Primary_Topic": "All Molecules,Regulatory",
+        "Potential_Vendors": "Cytiva, Sartorius, Thermo Fisher Scientific, MilliporeSigma, Repligen, Pall (Cytiva), Agilent",
+        "Vendors_Evaluated": "MasterControl, Inc.",
+        "Buyer_Intensity_Flags": "\ud83d\udd25 Non-NL engagement",
+        "Behavioral_Trigger": "",
+        "External_Trigger (press release info, etc)": "",
+        "Reason to Reach out": "Early awareness in All Molecules,Regulatory; keep warm with high-level thought leadership."
+      },
+      {
+        "Reader Company": "Abbott",
+        "First Name": "Cristina",
+        "Last Name": "Girao",
+        "Title": "Quality Management Consultant",
+        "Total Engagements": 7,
+        "Buyer_Journey_Label": "Awareness",
+        "Explanation": "General interest in this topic area",
+        "Primary_Topic": "",
+        "Potential_Vendors": "Cytiva, Sartorius, Thermo Fisher Scientific, MilliporeSigma, Repligen",
+        "Vendors_Evaluated": "Bioprocess Online, Danaher Life Sciences, Ideagen, MilliporeSigma, Particle Measuring Systems, QIAGEN, RedShiftBio",
+        "Buyer_Intensity_Flags": "",
+        "Behavioral_Trigger": "",
+        "External_Trigger (press release info, etc)": "",
+        "Reason to Reach out": "Early awareness in this area; keep warm with high-level thought leadership."
+      },
+      {
+        "Reader Company": "Abbott India Ltd",
+        "First Name": "Rameshwar",
+        "Last Name": "Deshmukh",
+        "Title": "Scientist",
+        "Total Engagements": 7,
+        "Buyer_Journey_Label": "Awareness",
+        "Explanation": "General interest in this topic area",
+        "Primary_Topic": "",
+        "Potential_Vendors": "Cytiva, Sartorius, Thermo Fisher Scientific, MilliporeSigma, Repligen",
+        "Vendors_Evaluated": "Bioprocess Online, Danaher Life Sciences, Ideagen, MilliporeSigma, Particle Measuring Systems, QIAGEN, RedShiftBio",
+        "Buyer_Intensity_Flags": "",
+        "Behavioral_Trigger": "",
+        "External_Trigger (press release info, etc)": "",
+        "Reason to Reach out": "Early awareness in this area; keep warm with high-level thought leadership."
+      }
+    ]
+  },
+  "Sales_Hot_List": {
+    "shape": [
+      31,
+      14
+    ],
+    "columns": [
+      "Reader Company",
+      "First Name",
+      "Last Name",
+      "Title",
+      "Total_Engagements",
+      "Buyer_Journey_Label",
+      "Explanation",
+      "Primary_Topic",
+      "Potential_Vendors",
+      "Vendors_Evaluated",
+      "Buyer_Intensity_Flags",
+      "Behavioral_Trigger",
+      "External_Trigger",
+      "Reason_to_Reach_Out"
+    ],
+    "head": [
+      {
+        "Reader Company": "Anagram Therapeutics Inc",
+        "First Name": "Cherline",
+        "Last Name": "Beaubrun Smith",
+        "Title": "Director of Analytical Development",
+        "Total_Engagements": 27,
+        "Buyer_Journey_Label": "Vendor Evaluation",
+        "Explanation": "General interest in this topic area",
+        "Primary_Topic": "Biologic,Bioprocess Analytical Methods,Contract Pharma Manufacturing (OUTPH),Drug Development,Process Development",
+        "Potential_Vendors": "Waters, Agilent, Thermo Fisher Scientific, Bruker, Shimadzu, SCIEX, Phenomenex",
+        "Vendors_Evaluated": "Alcami, Bioprocess Online, Catalent - BioAnalytics, Cytovance Biologics, Danaher Life Sciences, Emerson Automation Solutions, HighByte, IDBS, Labcorp Biopharmaceutical CMC Services, Lonza BIO IYL, MilliporeSigma, Minaris Advanced Therapies, NanoTemper Technologies, Inc., Outsourced Pharma, PHC Corporation of North America, Particle Measuring Systems, RedShiftBio, Roche CustomBiotech, TA Instruments, TSI Incorporated, Tecan, Tulip Interfaces, Inc., Waters Corporation",
+        "Buyer_Intensity_Flags": "",
+        "Behavioral_Trigger": "GMP / clinical manufacturing",
+        "External_Trigger": "",
+        "Reason_to_Reach_Out": "Actively comparing solutions in Biologic,Bioprocess Analytical Methods,Contract Pharma Manufacturing (OUTPH),Drug Development,Process Development; good timing for targeted outreach."
+      },
+      {
+        "Reader Company": "Astellas Pharma",
+        "First Name": "Fumio",
+        "Last Name": "Shoji",
+        "Title": "Researcher",
+        "Total_Engagements": 16,
+        "Buyer_Journey_Label": "Vendor Evaluation",
+        "Explanation": "Engaging with late-stage comparison/evaluation content \u2022 General interest in this topic area",
+        "Primary_Topic": "Biologic,Biosimilar Manufacturing,Downstream Isolation And Purification,Downstream Process Intensification",
+        "Potential_Vendors": "Cytiva, Sartorius, Tosoh Bioscience, Bio-Rad, Thermo Fisher Scientific, Repligen",
+        "Vendors_Evaluated": "Bio-Rad Laboratories, Inc., Bioprocess Online, Cytiva, DIANT Pharma, Ecolab, Purolite Resins, Entegris, Inc., Federal Equipment Company, Invetech, MilliporeSigma",
+        "Buyer_Intensity_Flags": "\ud83d\udcc4 Late-stage content",
+        "Behavioral_Trigger": "Vendor/option comparison",
+        "External_Trigger": "",
+        "Reason_to_Reach_Out": "Actively comparing solutions in Biologic,Biosimilar Manufacturing,Downstream Isolation And Purification,Downstream Process Intensification; good timing for targeted outreach."
+      },
+      {
+        "Reader Company": "Biocon Biologics",
+        "First Name": "Rangarajan",
+        "Last Name": "Padmanabhan",
+        "Title": "Senior Scientific Manager - Upstream Process Development",
+        "Total_Engagements": 17,
+        "Buyer_Journey_Label": "Vendor Evaluation",
+        "Explanation": "General interest in this topic area \u2022 Engaging with late-stage comparison/evaluation content \u2022 Exploring process/solution workflows",
+        "Primary_Topic": "Downstream Polish And Viral Clearance,Manufacturing,QA/QC",
+        "Potential_Vendors": "Cytiva, Sartorius, Repligen, Thermo Fisher Scientific, Pall (Cytiva), Merck Millipore (MilliporeSigma), 3M Health Care",
+        "Vendors_Evaluated": "ATUM, Asahi Kasei Bioprocess America, Inc., Bio-Rad Laboratories, Inc., Bioprocess Online, IDBS, Lonza BIO IYL, Lonza BIO SAY, MilliporeSigma, Repligen, Samsung Biologics, West Pharmaceutical Services, Inc.",
+        "Buyer_Intensity_Flags": "\ud83d\udd04 Deep process interest",
+        "Behavioral_Trigger": "GMP / clinical manufacturing, Vendor/solution selection",
+        "External_Trigger": "Inaugurated its first U.S. manufacturing facility in Cranbury, New Jersey, expanding global biologics production footprint.",
+        "Reason_to_Reach_Out": "Actively comparing solutions in Downstream Polish And Viral Clearance,Manufacturing,QA/QC; good timing for targeted outreach."
+      },
+      {
+        "Reader Company": "Biontech Se",
+        "First Name": "Sebastian",
+        "Last Name": "Kratz",
+        "Title": "Associate Director Microfluidics Technology Development",
+        "Total_Engagements": 5,
+        "Buyer_Journey_Label": "Vendor Evaluation",
+        "Explanation": "Engaging with late-stage comparison/evaluation content \u2022 General interest in this topic area \u2022 Exploring process/solution workflows",
+        "Primary_Topic": "Downstream Isolation And Purification,Downstream Polish And Viral Clearance,Production",
+        "Potential_Vendors": "Cytiva, Sartorius, Tosoh Bioscience, Bio-Rad, Thermo Fisher Scientific, Repligen",
+        "Vendors_Evaluated": "Asahi Kasei Bioprocess America, Inc., CPC, Samsung Biologics, West Pharmaceutical Services, Inc.",
+        "Buyer_Intensity_Flags": "\ud83d\udd04 Deep process interest",
+        "Behavioral_Trigger": "Tech transfer, Vendor/solution selection",
+        "External_Trigger": "Investing in mRNA manufacturing capacity, including an mRNA vaccine facility in Kigali, Rwanda, backed by European financing and partnerships.",
+        "Reason_to_Reach_Out": "Actively comparing solutions in Downstream Isolation And Purification,Downstream Polish And Viral Clearance,Production; good timing for targeted outreach."
+      },
+      {
+        "Reader Company": "Catholic University Of Leuven - Ku Leuven",
+        "First Name": "Frank",
+        "Last Name": "Moerman",
+        "Title": "Bioengineer - researcher",
+        "Total_Engagements": 7,
+        "Buyer_Journey_Label": "Vendor Evaluation",
+        "Explanation": "General interest in this topic area \u2022 Engaging with late-stage comparison/evaluation content",
+        "Primary_Topic": "All Molecules,Bioprocess Facility Design,Facility Design,Manufacturing,Production,Regulatory",
+        "Potential_Vendors": "Cytiva, Sartorius, Thermo Fisher Scientific, MilliporeSigma, Repligen, Pall (Cytiva), Agilent",
+        "Vendors_Evaluated": "Aizon, Bioprocess Online, Blue Mountain, Bora Pharmaceuticals, Federal Equipment Company",
+        "Buyer_Intensity_Flags": "\ud83d\udcc4 Late-stage content",
+        "Behavioral_Trigger": "Vendor/option comparison",
+        "External_Trigger": "",
+        "Reason_to_Reach_Out": "Actively comparing solutions in All Molecules,Bioprocess Facility Design,Facility Design,Manufacturing,Production,Regulatory; good timing for targeted outreach."
+      }
+    ]
+  }
+}

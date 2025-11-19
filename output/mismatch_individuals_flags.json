@@ -1,0 +1,505 @@
+{
+  "count": 329,
+  "samples": [
+    {
+      "key": "3pbiovian|alejandro|martin",
+      "Reader Company_ref": "3Pbiovian",
+      "First Name_ref": "Alejandro",
+      "Last Name_ref": "Martin",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click"
+    },
+    {
+      "key": "a*star|wei|zhang",
+      "Reader Company_ref": "A*Star",
+      "First Name_ref": "Wei",
+      "Last Name_ref": "Zhang",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "abbott india ltd|rameshwar|deshmukh",
+      "Reader Company_ref": "Abbott India Ltd",
+      "First Name_ref": "Rameshwar",
+      "Last Name_ref": "Deshmukh",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "abbott|aaron|comerford",
+      "Reader Company_ref": "Abbott",
+      "First Name_ref": "Aaron",
+      "Last Name_ref": "Comerford",
+      "Buyer_Intensity_Flags_ref": "\ud83d\udd25 Non-NL engagement",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "Direct (Non-NL) visit rather than newsletter click",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows"
+    },
+    {
+      "key": "abbott|cristina|girao",
+      "Reader Company_ref": "Abbott",
+      "First Name_ref": "Cristina",
+      "Last Name_ref": "Girao",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows"
+    },
+    {
+      "key": "abl|tingting|ju",
+      "Reader Company_ref": "Abl",
+      "First Name_ref": "Tingting",
+      "Last Name_ref": "Ju",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows"
+    },
+    {
+      "key": "adma biologics|noah|horn",
+      "Reader Company_ref": "Adma Biologics",
+      "First Name_ref": "Noah",
+      "Last Name_ref": "Horn",
+      "Buyer_Intensity_Flags_ref": "\ud83d\udd04 Deep process interest",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "Exploring process/solution workflows \u2022 General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows"
+    },
+    {
+      "key": "aegros|christina|chen",
+      "Reader Company_ref": "Aegros",
+      "First Name_ref": "Christina",
+      "Last Name_ref": "Chen",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows"
+    },
+    {
+      "key": "afrigen biologicals|dumisani|cakwebe",
+      "Reader Company_ref": "Afrigen Biologicals",
+      "First Name_ref": "Dumisani",
+      "Last Name_ref": "Cakwebe",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "agc biologics|kevin|dornfeld",
+      "Reader Company_ref": "Agc Biologics",
+      "First Name_ref": "Kevin",
+      "Last Name_ref": "Dornfeld",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area \u2022 Looking at challenge/problem-focused content",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "agenus|fangqiang|tang",
+      "Reader Company_ref": "Agenus",
+      "First Name_ref": "Fangqiang",
+      "Last Name_ref": "Tang",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "agenus|roxanna|vidal",
+      "Reader Company_ref": "Agenus",
+      "First Name_ref": "Roxanna",
+      "Last Name_ref": "Vidal",
+      "Buyer_Intensity_Flags_ref": "\ud83d\udd04 Deep process interest",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area \u2022 Looking at challenge/problem-focused content \u2022 Exploring process/solution workflows",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "akron bioproducts|militza|monserrate",
+      "Reader Company_ref": "Akron Bioproducts",
+      "First Name_ref": "Militza",
+      "Last Name_ref": "Monserrate",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows"
+    },
+    {
+      "key": "alaya.bio|l\u00e9a|dandan",
+      "Reader Company_ref": "Alaya.Bio",
+      "First Name_ref": "L\u00e9a",
+      "Last Name_ref": "Dandan",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "alloy therapeutics co. ltd.|junji|yamaura",
+      "Reader Company_ref": "Alloy Therapeutics Co. Ltd.",
+      "First Name_ref": "Junji",
+      "Last Name_ref": "Yamaura",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "alteogen inc.|kyuwan|kim",
+      "Reader Company_ref": "Alteogen Inc.",
+      "First Name_ref": "Kyuwan",
+      "Last Name_ref": "Kim",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click"
+    },
+    {
+      "key": "altpep|laura|napier",
+      "Reader Company_ref": "Altpep",
+      "First Name_ref": "Laura",
+      "Last Name_ref": "Napier",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows"
+    },
+    {
+      "key": "alvotech|arun|bhat",
+      "Reader Company_ref": "Alvotech",
+      "First Name_ref": "Arun",
+      "Last Name_ref": "Bhat",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "amneal pharmaceuticals|shailesh|jain",
+      "Reader Company_ref": "Amneal Pharmaceuticals",
+      "First Name_ref": "Shailesh",
+      "Last Name_ref": "Jain",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "amneal pharmaceutical|suhaskumar|patel",
+      "Reader Company_ref": "Amneal Pharmaceutical",
+      "First Name_ref": "Suhaskumar",
+      "Last Name_ref": "Patel",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "amryt pharma|adi|valdfogel",
+      "Reader Company_ref": "Amryt Pharma",
+      "First Name_ref": "Adi",
+      "Last Name_ref": "Valdfogel",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "anagram therapeutics inc|cherline|beaubrun smith",
+      "Reader Company_ref": "Anagram Therapeutics Inc",
+      "First Name_ref": "Cherline",
+      "Last Name_ref": "Beaubrun Smith",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udcc4 Late-stage content",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Engaging with late-stage comparison/evaluation content"
+    },
+    {
+      "key": "anaptysbio|daisy|khuu",
+      "Reader Company_ref": "Anaptysbio",
+      "First Name_ref": "Daisy",
+      "Last Name_ref": "Khuu",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "anxo pharmaceutical co.|tony|liu",
+      "Reader Company_ref": "Anxo Pharmaceutical Co.",
+      "First Name_ref": "Tony",
+      "Last Name_ref": "Liu",
+      "Buyer_Intensity_Flags_ref": "\ud83d\udd04 Deep process interest",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "Exploring process/solution workflows \u2022 General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows"
+    },
+    {
+      "key": "apogee therapeutics|andrew|wood",
+      "Reader Company_ref": "Apogee Therapeutics",
+      "First Name_ref": "Andrew",
+      "Last Name_ref": "Wood",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "arcellx inc.|tiezheng|li",
+      "Reader Company_ref": "Arcellx Inc.",
+      "First Name_ref": "Tiezheng",
+      "Last Name_ref": "Li",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "arcellx|michael|lee",
+      "Reader Company_ref": "Arcellx",
+      "First Name_ref": "Michael",
+      "Last Name_ref": "Lee",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows"
+    },
+    {
+      "key": "asimov|jonathon|o'leary",
+      "Reader Company_ref": "Asimov",
+      "First Name_ref": "Jonathon",
+      "Last Name_ref": "O'leary",
+      "Buyer_Intensity_Flags_ref": "\ud83d\udd25 Non-NL engagement",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area \u2022 Direct (Non-NL) visit rather than newsletter click",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows"
+    },
+    {
+      "key": "asklepios biopharmaceutical inc.|david|knop",
+      "Reader Company_ref": "Asklepios Biopharmaceutical Inc.",
+      "First Name_ref": "David",
+      "Last Name_ref": "Knop",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "Looking at challenge/problem-focused content",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "astellas pharma inc.|junta|shimada",
+      "Reader Company_ref": "Astellas Pharma Inc.",
+      "First Name_ref": "Junta",
+      "Last Name_ref": "Shimada",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "astellas pharma inc.|yuriko|arikawa",
+      "Reader Company_ref": "Astellas Pharma Inc.",
+      "First Name_ref": "Yuriko",
+      "Last Name_ref": "Arikawa",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "astellas pharma|alison|burkart",
+      "Reader Company_ref": "Astellas Pharma",
+      "First Name_ref": "Alison",
+      "Last Name_ref": "Burkart",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows"
+    },
+    {
+      "key": "astellas pharma|fumio|shoji",
+      "Reader Company_ref": "Astellas Pharma",
+      "First Name_ref": "Fumio",
+      "Last Name_ref": "Shoji",
+      "Buyer_Intensity_Flags_ref": "\ud83d\udcc4 Late-stage content",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udcc4 Late-stage content, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "Engaging with late-stage comparison/evaluation content \u2022 General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Engaging with late-stage comparison/evaluation content \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "astellas pharma|jerome|baligod",
+      "Reader Company_ref": "Astellas Pharma",
+      "First Name_ref": "Jerome",
+      "Last Name_ref": "Baligod",
+      "Buyer_Intensity_Flags_ref": "\ud83d\udd04 Deep process interest",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udcc4 Late-stage content, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area \u2022 Exploring process/solution workflows",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Engaging with late-stage comparison/evaluation content \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "astellas pharma|shinya|takahashi",
+      "Reader Company_ref": "Astellas Pharma",
+      "First Name_ref": "Shinya",
+      "Last Name_ref": "Takahashi",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows"
+    },
+    {
+      "key": "atyr pharma|darin|lee",
+      "Reader Company_ref": "Atyr Pharma",
+      "First Name_ref": "Darin",
+      "Last Name_ref": "Lee",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click"
+    },
+    {
+      "key": "aurigene pharmaceutical services limited|premnath|s",
+      "Reader Company_ref": "Aurigene Pharmaceutical Services Limited",
+      "First Name_ref": "Premnath",
+      "Last Name_ref": "S",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "autolus ltd|hemant|dhamne",
+      "Reader Company_ref": "Autolus Ltd",
+      "First Name_ref": "Hemant",
+      "Last Name_ref": "Dhamne",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows"
+    },
+    {
+      "key": "aviadobio|daniel|lourenco",
+      "Reader Company_ref": "Aviadobio",
+      "First Name_ref": "Daniel",
+      "Last Name_ref": "Lourenco",
+      "Buyer_Intensity_Flags_ref": "\ud83d\udd04 Deep process interest",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "Exploring process/solution workflows \u2022 General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows"
+    },
+    {
+      "key": "be biopharma|lisa|bradbury",
+      "Reader Company_ref": "Be Biopharma",
+      "First Name_ref": "Lisa",
+      "Last Name_ref": "Bradbury",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "bio-manguinhos/fiocruz|ana|andrade",
+      "Reader Company_ref": "Bio-Manguinhos/Fiocruz",
+      "First Name_ref": "Ana",
+      "Last Name_ref": "Andrade",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "bio-sourcing|hilda|nyambura",
+      "Reader Company_ref": "Bio-Sourcing",
+      "First Name_ref": "Hilda",
+      "Last Name_ref": "Nyambura",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "bio-sourcing|ildiko|nagy",
+      "Reader Company_ref": "Bio-Sourcing",
+      "First Name_ref": "Ildiko",
+      "Last Name_ref": "Nagy",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows"
+    },
+    {
+      "key": "bio-technology general|hila|nudelman",
+      "Reader Company_ref": "Bio-Technology General",
+      "First Name_ref": "Hila",
+      "Last Name_ref": "Nudelman",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows"
+    },
+    {
+      "key": "biocon biologics|akash|shanbhag",
+      "Reader Company_ref": "Biocon Biologics",
+      "First Name_ref": "Akash",
+      "Last Name_ref": "Shanbhag",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "biocon biologics|rangarajan|padmanabhan",
+      "Reader Company_ref": "Biocon Biologics",
+      "First Name_ref": "Rangarajan",
+      "Last Name_ref": "Padmanabhan",
+      "Buyer_Intensity_Flags_ref": "\ud83d\udd04 Deep process interest",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area \u2022 Engaging with late-stage comparison/evaluation content \u2022 Exploring process/solution workflows",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows"
+    },
+    {
+      "key": "biocon biologics|yukta|mate",
+      "Reader Company_ref": "Biocon Biologics",
+      "First Name_ref": "Yukta",
+      "Last Name_ref": "Mate",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "biocon limited|srinivasan|raman",
+      "Reader Company_ref": "Biocon Limited",
+      "First Name_ref": "Srinivasan",
+      "Last Name_ref": "Raman",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "biogen|tim|meinig",
+      "Reader Company_ref": "Biogen",
+      "First Name_ref": "Tim",
+      "Last Name_ref": "Meinig",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content"
+    },
+    {
+      "key": "biological e ltd|pavani|vanjavaka",
+      "Reader Company_ref": "Biological E Ltd",
+      "First Name_ref": "Pavani",
+      "Last Name_ref": "Vanjavaka",
+      "Buyer_Intensity_Flags_ref": "",
+      "Buyer_Intensity_Flags_gen": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+      "Explanation_ref": "General interest in this topic area",
+      "Explanation_gen": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows"
+    }
+  ]
+}

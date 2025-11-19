@@ -1,0 +1,272 @@
+{
+  "Company_Combined": {
+    "shape": [
+      273,
+      7
+    ],
+    "columns": [
+      "Company",
+      "Active_Individuals",
+      "Dominant_Topic",
+      "Team_Buying_Signal",
+      "Behavioral_Triggers",
+      "External_Trigger",
+      "Product_Category"
+    ],
+    "head": [
+      {
+        "Company": "3Pbiovian",
+        "Active_Individuals": 1,
+        "Dominant_Topic": "Biologic,Discovery,How Sethera Harnesses A Promiscuous Enzyme To Make Recombinant Peptides",
+        "Team_Buying_Signal": "No",
+        "Behavioral_Triggers": "",
+        "External_Trigger": "",
+        "Product_Category": "Biologic,Discovery,How Sethera Harnesses A Promiscuous Enzyme To Make Recombinant Peptides"
+      },
+      {
+        "Company": "A*Star",
+        "Active_Individuals": 1,
+        "Dominant_Topic": "Antibodies-(mAbs,Bio-Expo Live: Downstream Bioprocessing - November 2025,Cell Therapy",
+        "Team_Buying_Signal": "No",
+        "Behavioral_Triggers": "GMP / clinical manufacturing",
+        "External_Trigger": "",
+        "Product_Category": "Antibodies-(mAbs,Bio-Expo Live: Downstream Bioprocessing - November 2025,Cell Therapy"
+      },
+      {
+        "Company": "Abbott",
+        "Active_Individuals": 2,
+        "Dominant_Topic": "All Molecules,Regulatory,The 7 C's Of A Compliant Manufacturing Change Control System",
+        "Team_Buying_Signal": "Yes",
+        "Behavioral_Triggers": "GMP / clinical manufacturing",
+        "External_Trigger": "",
+        "Product_Category": "All Molecules,Regulatory,The 7 C's Of A Compliant Manufacturing Change Control System,& Analytical Solutions - November 2025,Assays,Bio-Expo Live: Bioprocess Quality"
+      },
+      {
+        "Company": "Abbott India Ltd",
+        "Active_Individuals": 1,
+        "Dominant_Topic": "& Analytical Solutions - November 2025,Bio-Expo Live: Bioprocess Quality,Data",
+        "Team_Buying_Signal": "No",
+        "Behavioral_Triggers": "GMP / clinical manufacturing",
+        "External_Trigger": "",
+        "Product_Category": "& Analytical Solutions - November 2025,Bio-Expo Live: Bioprocess Quality,Data"
+      },
+      {
+        "Company": "Abl",
+        "Active_Individuals": 1,
+        "Dominant_Topic": "Antibodies-(mAbs,Bio-Expo Live: Downstream Bioprocessing - November 2025,Gene Therapy",
+        "Team_Buying_Signal": "No",
+        "Behavioral_Triggers": "GMP / clinical manufacturing",
+        "External_Trigger": "",
+        "Product_Category": "Antibodies-(mAbs,Bio-Expo Live: Downstream Bioprocessing - November 2025,Gene Therapy"
+      }
+    ]
+  },
+  "Individuals": {
+    "shape": [
+      349,
+      14
+    ],
+    "columns": [
+      "Reader Company",
+      "First Name",
+      "Last Name",
+      "Title",
+      "Total Engagements",
+      "Buyer_Journey_Label",
+      "Explanation",
+      "Primary_Topic",
+      "Potential_Vendors",
+      "Vendors_Evaluated",
+      "Buyer_Intensity_Flags",
+      "Behavioral_Trigger",
+      "External_Trigger (press release info, etc)",
+      "Reason to Reach out"
+    ],
+    "head": [
+      {
+        "Reader Company": "Abbott",
+        "First Name": "Aaron",
+        "Last Name": "Comerford",
+        "Title": "Medical Device Production Supervisor",
+        "Total Engagements": 5,
+        "Buyer_Journey_Label": "Awareness",
+        "Explanation": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows",
+        "Primary_Topic": "All Molecules,Regulatory,The 7 C's Of A Compliant Manufacturing Change Control System",
+        "Potential_Vendors": "Cytiva, Sartorius, Thermo Fisher Scientific, MilliporeSigma, Repligen, Pall (Cytiva)",
+        "Vendors_Evaluated": "",
+        "Buyer_Intensity_Flags": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+        "Behavioral_Trigger": "GMP / clinical manufacturing",
+        "External_Trigger (press release info, etc)": "",
+        "Reason to Reach out": "Early awareness in All Molecules,Regulatory,The 7 C's Of A Compliant Manufacturing Change Control System; keep warm with high-level thought leadership."
+      },
+      {
+        "Reader Company": "Intravacc",
+        "First Name": "Aart",
+        "Last Name": "Oever",
+        "Title": "Bioprocess developer / Researcher DSP",
+        "Total Engagements": 25,
+        "Buyer_Journey_Label": "Vendor Evaluation",
+        "Explanation": "Direct (Non-NL) visit rather than newsletter click \u2022 Engaging with late-stage comparison/evaluation content \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content",
+        "Primary_Topic": "And Ongoing Frustrations,Bioprocess Manufacturing Controls,Development",
+        "Potential_Vendors": "Cytiva, Sartorius, Thermo Fisher Scientific, Repligen, Pall (Cytiva), MilliporeSigma",
+        "Vendors_Evaluated": "Bio-Rad, Cytiva, Lonza",
+        "Buyer_Intensity_Flags": "\ud83d\udd25 Non-NL engagement, \ud83d\udcc4 Late-stage content, \ud83d\udd04 Deep process interest",
+        "Behavioral_Trigger": "GMP / clinical manufacturing, Vendor/option comparison",
+        "External_Trigger (press release info, etc)": "",
+        "Reason to Reach out": "Actively comparing solutions in And Ongoing Frustrations,Bioprocess Manufacturing Controls,Development; good timing for targeted outreach."
+      },
+      {
+        "Reader Company": "Wacker",
+        "First Name": "Aavi",
+        "Last Name": "Bhakta",
+        "Title": "Process Development Scientist III",
+        "Total Engagements": 7,
+        "Buyer_Journey_Label": "Solution Exploration",
+        "Explanation": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows",
+        "Primary_Topic": "& Analytical Solutions - November 2025,Bio-Expo Live: Bioprocess Quality,Data",
+        "Potential_Vendors": "Waters, Agilent, Thermo Fisher Scientific, SCIEX, Shimadzu",
+        "Vendors_Evaluated": "MilliporeSigma",
+        "Buyer_Intensity_Flags": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+        "Behavioral_Trigger": "GMP / clinical manufacturing",
+        "External_Trigger (press release info, etc)": "",
+        "Reason to Reach out": "Early awareness in & Analytical Solutions - November 2025,Bio-Expo Live: Bioprocess Quality,Data; keep warm with high-level thought leadership."
+      },
+      {
+        "Reader Company": "National Research Centre",
+        "First Name": "Abdelmageed",
+        "Last Name": "Othman",
+        "Title": "prof",
+        "Total Engagements": 7,
+        "Buyer_Journey_Label": "Solution Exploration",
+        "Explanation": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content",
+        "Primary_Topic": "& Analytical Solutions - November 2025,Bio-Expo Live: Bioprocess Quality,Bioanalytical Methods",
+        "Potential_Vendors": "Waters, Agilent, Thermo Fisher Scientific, SCIEX, Shimadzu",
+        "Vendors_Evaluated": "MilliporeSigma",
+        "Buyer_Intensity_Flags": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+        "Behavioral_Trigger": "GMP / clinical manufacturing",
+        "External_Trigger (press release info, etc)": "",
+        "Reason to Reach out": "Early awareness in & Analytical Solutions - November 2025,Bio-Expo Live: Bioprocess Quality,Bioanalytical Methods; keep warm with high-level thought leadership."
+      },
+      {
+        "Reader Company": "Amryt Pharma",
+        "First Name": "Adi",
+        "Last Name": "Valdfogel",
+        "Title": "Senior Manager MSAT",
+        "Total Engagements": 8,
+        "Buyer_Journey_Label": "Solution Exploration",
+        "Explanation": "Direct (Non-NL) visit rather than newsletter click \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content",
+        "Primary_Topic": "Bio-Expo Live: Downstream Bioprocessing - November 2025,Q) What Therapeutic are you working on? A) Proteins & Peptides,Q) What is your anticipated timeframe for purchasing downstream solutions? A) Not needed at this time",
+        "Potential_Vendors": "Cytiva, Sartorius, Tosoh Bioscience, Repligen",
+        "Vendors_Evaluated": "Bio-Rad, Cytiva, MilliporeSigma",
+        "Buyer_Intensity_Flags": "\ud83d\udd25 Non-NL engagement, \ud83d\udd04 Deep process interest",
+        "Behavioral_Trigger": "GMP / clinical manufacturing",
+        "External_Trigger (press release info, etc)": "",
+        "Reason to Reach out": "Early awareness in Bio-Expo Live: Downstream Bioprocessing - November 2025,Q) What Therapeutic are you working on? A) Proteins & Peptides,Q) What is your anticipated timeframe for purchasing downstream solutions? A) Not needed at this time; keep warm with high-level thought leadership."
+      }
+    ]
+  },
+  "Sales_Hot_List": {
+    "shape": [
+      18,
+      14
+    ],
+    "columns": [
+      "Reader Company",
+      "First Name",
+      "Last Name",
+      "Title",
+      "Total_Engagements",
+      "Buyer_Journey_Label",
+      "Explanation",
+      "Primary_Topic",
+      "Potential_Vendors",
+      "Vendors_Evaluated",
+      "Buyer_Intensity_Flags",
+      "Behavioral_Trigger",
+      "External_Trigger (press release info, etc)",
+      "Reason_to_Reach_Out"
+    ],
+    "head": [
+      {
+        "Reader Company": "Intravacc",
+        "First Name": "Aart",
+        "Last Name": "Oever",
+        "Title": "Bioprocess developer / Researcher DSP",
+        "Total_Engagements": 25,
+        "Buyer_Journey_Label": "Vendor Evaluation",
+        "Explanation": "Direct (Non-NL) visit rather than newsletter click \u2022 Engaging with late-stage comparison/evaluation content \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content",
+        "Primary_Topic": "And Ongoing Frustrations,Bioprocess Manufacturing Controls,Development",
+        "Potential_Vendors": "Cytiva, Sartorius, Thermo Fisher Scientific, Repligen, Pall (Cytiva), MilliporeSigma",
+        "Vendors_Evaluated": "Bio-Rad, Cytiva, Lonza",
+        "Buyer_Intensity_Flags": "\ud83d\udd25 Non-NL engagement, \ud83d\udcc4 Late-stage content, \ud83d\udd04 Deep process interest",
+        "Behavioral_Trigger": "GMP / clinical manufacturing, Vendor/option comparison",
+        "External_Trigger (press release info, etc)": "",
+        "Reason_to_Reach_Out": "Actively comparing solutions in And Ongoing Frustrations,Bioprocess Manufacturing Controls,Development; good timing for targeted outreach."
+      },
+      {
+        "Reader Company": "Hnelius",
+        "First Name": "Alex",
+        "Last Name": "Song",
+        "Title": "ADC SD",
+        "Total_Engagements": 18,
+        "Buyer_Journey_Label": "Vendor Evaluation",
+        "Explanation": "Direct (Non-NL) visit rather than newsletter click \u2022 Engaging with late-stage comparison/evaluation content \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content",
+        "Primary_Topic": "Bioprocess Manufacturing Services,CMO-CDMO,How To Safely Handle Your Antibody Drug Conjugate",
+        "Potential_Vendors": "Cytiva, Sartorius, Thermo Fisher Scientific, Repligen, Pall (Cytiva), MilliporeSigma",
+        "Vendors_Evaluated": "Cytiva, Lonza, MilliporeSigma",
+        "Buyer_Intensity_Flags": "\ud83d\udd25 Non-NL engagement, \ud83d\udcc4 Late-stage content, \ud83d\udd04 Deep process interest",
+        "Behavioral_Trigger": "GMP / clinical manufacturing, Vendor/option comparison",
+        "External_Trigger (press release info, etc)": "",
+        "Reason_to_Reach_Out": "Actively comparing solutions in Bioprocess Manufacturing Services,CMO-CDMO,How To Safely Handle Your Antibody Drug Conjugate; good timing for targeted outreach."
+      },
+      {
+        "Reader Company": "Primrose Bio",
+        "First Name": "Andrew",
+        "Last Name": "Burch",
+        "Title": "CEO",
+        "Total_Engagements": 14,
+        "Buyer_Journey_Label": "Vendor Evaluation",
+        "Explanation": "Direct (Non-NL) visit rather than newsletter click \u2022 Engaging with late-stage comparison/evaluation content \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content",
+        "Primary_Topic": "Biologic,Bioprocess Manufacturing Services,Essential Insights Into Linker Chemistry For Antibody Drug Conjugates (ADCs)",
+        "Potential_Vendors": "Cytiva, Sartorius, Thermo Fisher Scientific, Repligen, Pall (Cytiva), MilliporeSigma",
+        "Vendors_Evaluated": "Cytiva, Thermo Fisher, Thermo Fisher Scientific",
+        "Buyer_Intensity_Flags": "\ud83d\udd25 Non-NL engagement, \ud83d\udcc4 Late-stage content, \ud83d\udd04 Deep process interest",
+        "Behavioral_Trigger": "GMP / clinical manufacturing, Vendor/option comparison",
+        "External_Trigger (press release info, etc)": "",
+        "Reason_to_Reach_Out": "Actively comparing solutions in Biologic,Bioprocess Manufacturing Services,Essential Insights Into Linker Chemistry For Antibody Drug Conjugates (ADCs); good timing for targeted outreach."
+      },
+      {
+        "Reader Company": "Biological E. Limited",
+        "First Name": "Ankur",
+        "Last Name": "Gupta",
+        "Title": "Knowledge Management Practice Lead",
+        "Total_Engagements": 8,
+        "Buyer_Journey_Label": "Vendor Evaluation",
+        "Explanation": "Direct (Non-NL) visit rather than newsletter click \u2022 Engaging with late-stage comparison/evaluation content \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content",
+        "Primary_Topic": "& Analytical Solutions - November 2025,Bio-Expo Live: Bioprocess Quality,Data",
+        "Potential_Vendors": "Waters, Agilent, Thermo Fisher Scientific, SCIEX, Shimadzu",
+        "Vendors_Evaluated": "MilliporeSigma, Thermo Fisher, Thermo Fisher Scientific",
+        "Buyer_Intensity_Flags": "\ud83d\udd25 Non-NL engagement, \ud83d\udcc4 Late-stage content, \ud83d\udd04 Deep process interest",
+        "Behavioral_Trigger": "GMP / clinical manufacturing, Vendor/option comparison",
+        "External_Trigger (press release info, etc)": "",
+        "Reason_to_Reach_Out": "Actively comparing solutions in & Analytical Solutions - November 2025,Bio-Expo Live: Bioprocess Quality,Data; good timing for targeted outreach."
+      },
+      {
+        "Reader Company": "Pharmaron Biologics Ltd.",
+        "First Name": "Beata",
+        "Last Name": "Adamiak",
+        "Title": "Senior Manager (Process Sciences)",
+        "Total_Engagements": 12,
+        "Buyer_Journey_Label": "Vendor Evaluation",
+        "Explanation": "Direct (Non-NL) visit rather than newsletter click \u2022 Engaging with late-stage comparison/evaluation content \u2022 Exploring process/solution workflows \u2022 Looking at challenge/problem-focused content",
+        "Primary_Topic": "& Analytical Solutions - November 2025,Assays,Bio-Expo Live: Bioprocess Quality",
+        "Potential_Vendors": "Waters, Agilent, Thermo Fisher Scientific, SCIEX, Shimadzu",
+        "Vendors_Evaluated": "MilliporeSigma, Thermo Fisher, Thermo Fisher Scientific",
+        "Buyer_Intensity_Flags": "\ud83d\udd25 Non-NL engagement, \ud83d\udcc4 Late-stage content, \ud83d\udd04 Deep process interest",
+        "Behavioral_Trigger": "GMP / clinical manufacturing, Vendor/option comparison",
+        "External_Trigger (press release info, etc)": "",
+        "Reason_to_Reach_Out": "Actively comparing solutions in & Analytical Solutions - November 2025,Assays,Bio-Expo Live: Bioprocess Quality; good timing for targeted outreach."
+      }
+    ]
+  }
+}
