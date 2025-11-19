@@ -659,8 +659,7 @@ def main():
     st.subheader("Company Summary")
     st.dataframe(results["company_summary"].head(200))
 
-    st.subheader("Top Products")
-    st.dataframe(results["product_map"].head(200))
+    # Top Products section removed per user request (was blank/unnecessary)
 
     st.subheader("Sales Hot List")
     st.dataframe(results["sales_hot_list"].head(200))
